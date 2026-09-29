@@ -1,4 +1,4 @@
-# 01. EP MSSQL 연결 및 View 검증
+<img width="372" height="433" alt="image" src="https://github.com/user-attachments/assets/2735abee-a10f-4b88-ae29-d1601e02589f" /># 01. EP MSSQL 연결 및 View 검증
 
 ## 목적
 Linux AI 서버에서 EP MSSQL의 Read-only View를 조회하고 Python Collector 개발에 필요한 View, 컬럼, Join Key, 샘플 데이터를 검증한다.
@@ -12,6 +12,46 @@ Linux AI 서버에서 EP MSSQL의 Read-only View를 조회하고 Python Collecto
 - AI 서버 Source IP 허용 및 방화벽 정책
 - TLS/인증서 정책
 
+●전자결재/기안문서： 
+- 문서 제목
+- 문서 본문
+- 작성자 부서, 결재자 부서, ID
+- 작성자 이름. 결재자 이름. ID
+- 등록일, 결재일
+- 첨부파일 유무
+- 첨부파일
+- 분류코드 
+- 경로
+- 문서 번호
+
+●기술자료실： 
+- 게시판 이름(_layer_별로)
+- 게시글 제목
+- 게시글 본문
+- 게시자 부서
+- 게시자 이름
+- 등록일
+- 첨부파일 유무
+- 첨부파일
+- 게시판 ID
+- 게시자 ID
+- 게시글 경로
+
+●사원정보： 
+- 사번
+- 이름
+- KT메일주소
+- 휴대폰 번호
+- 부서코드
+- 직위
+- 퇴직 사번
+- 퇴장지가비밀번호
+- 퇴직자메일주소
+- 퇴직자 휴대폰번호퇴
+- 퇴직자 부서코드
+- 퇴작자 직위
+- 퇴직일자
+  
 ## Python 환경
 ```bash
 mkdir -p ~/company_ai/collector
