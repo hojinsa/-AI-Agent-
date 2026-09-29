@@ -1,4 +1,4 @@
-<img width="372" height="433" alt="image" src="https://github.com/user-attachments/assets/2735abee-a10f-4b88-ae29-d1601e02589f" /># 01. EP MSSQL 연결 및 View 검증
+# 01. EP MSSQL 연결 및 View 검증
 
 ## 목적
 Linux AI 서버에서 EP MSSQL의 Read-only View를 조회하고 Python Collector 개발에 필요한 View, 컬럼, Join Key, 샘플 데이터를 검증한다.
